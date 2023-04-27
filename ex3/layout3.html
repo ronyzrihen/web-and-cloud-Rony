@@ -6,16 +6,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiko&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="JS/script.js"></script>
     <title>Rony Zrihen - Dynamic</title>
 </head>
 
 <body>
-    <header></header>
-
+    <header id="layout3Header">
+        <botton id="btn"></botton>
+    </header>
     <div id=wrapper3>
         <section class="layout3">
             <aside id="left-nav">
-
                 <nav>
                     <ul id="main-nav">
                         <li id="dot1"><a href="index.html">MIX</a></li>
@@ -23,27 +24,19 @@
                         <li id="dot3"><a href="#" class="selected">DYNAMIC</a></li>
                     </ul>
                 </nav>
-
+                <h1 id="newGame">Restarting Game Now!</h1>
             </aside>
-            <main></main>
-            <aside id="right-aside"></aside>
-
-
-
+            <main id="main1"></main>
+            <aside id="right-aside">
+                <div id="test"></div>
+            </aside>
         </section>
-
+        <section id="yellow-section"></section>
     </div>
-
-
-    <section></section>
-    <footer>
-
-    </footer>
-
-
-
-
-
+    <footer></footer>
+    <script>
+        (drawCards())
+    </script>
 
 </body>
 
