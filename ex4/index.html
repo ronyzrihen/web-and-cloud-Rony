@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+
+    <form action="http://se.shenkar.ac.il/teach/web1/get_form3.php " method="get" autocomplete="on" onsubmit="return submition()">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="form-floating col-6 ">
+                    <input type="text" name="fullName" class="form-control" placeholder="Enter Your Name">
+                    <label for="fullName">Full Name</label>
+                </div>
+                <div class="form-floating col-6">
+
+                    <input type="password" name="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="form-control" placeholder="Enter Your Password">
+                    <label for="pass">Password</label>
+                </div>
+            </div><br>
+            <div class="form-floating">
+                <input type="email" name="mail" class="form-control" placeholder="Enter Your E-mail">
+
+                <label>Email</label>
+            </div><br>
+            <div class="form-floating">
+                <input type="url" name="website" class="form-control">
+                <label>Website</label>
+            </div><br>
+            <div class="form-floating">
+                <input type="tel" name="phone" class="form-control">
+                <label>Phone</label>
+            </div><br>
+            <div class="form-floating">
+                <input type="number" name="coffee" class="form-control">
+                <label for="coffee">Coffee cups per day</label>
+            </div><br>
+            <div class="row col-6 tenp">
+                <label>Temperture</label>
+                <input type="range" name="temper">
+            </div>
+            <br>
+            <label>Enter Your Interests</label>
+            <div class="form-check">
+                <label class="form-check-label" for="a">Drinking Coffee <input class="form-check-input" id="a" type="checkbox" name="interests[]" value="Drinking Coffee "></label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="b">Coding</label> <input class="form-check-input" id="b" type="checkbox" name="interests[]" value="Coding">
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="c">Finishing My Web Assignment</label> <input class="form-check-input" id="c" type="checkbox" name="interests[]" value="Finishing My Web Assignment">
+            </div><br>
+            <label>how do you identify yourself</label>
+            <div class="form-check">
+                <input type="radio" id="ra" name="gender" value="Radio" class="form-check-input"><label for="ra" class="form-check-label">I am a Radio</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="ro" name="gender" value="ROBOT" class="form-check-input"> <label for="ro" class="form-check-label">I am a ROBOT</label>
+            </div><br>
+            <div class="input-group">
+                <span class="input-group-text">Address</span>
+                <textarea class="form-control" aria-label="address"></textarea>
+            </div><br>
+            <label>Age:</label>
+            <select name="age" required>
+                
+                <!-- <option value=""></option> -->
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                
+                
+            </select><br><br>
+
+
+            <input class="btn btn-primary col-12" type="submit" value="click on me!">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>

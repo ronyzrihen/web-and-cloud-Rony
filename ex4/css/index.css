@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+header,
+aside,
+footer,
+div,
+section {
+    display: block;
+}
+
+body {
+    background-color: pink;
+}
+
+form {
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+
+.container {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    top: 10px;
+}
+
+.row>div>label {
+    margin-left: 10px;
+}
+
+.temp {
+    position: relative;
+    left: 5000px;
+}

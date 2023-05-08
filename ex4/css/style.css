@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+header,
+div,
+section,
+footer,
+aside,
+svg {
+    display: block;
+}
+
+body {
+    position: relative;
+    background-color: #D0D0C9;
+    height: fit-content;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    background-color: #828165;
+}
+
+form {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-floating>label {
+    margin-left: 10px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 85px;
+    background-color: #828165;
+    border-bottom: outset;
+    border-width: 5px;
+    border-color: #7a736e;
+}
+
+header>svg {
+    position: absolute;
+    top: 10px;
+}
+
+#beans {
+    display: flex;
+    justify-content: center;
+}
+
+.form-check {
+    display: flex;
+    justify-content: center;
+}
+
+.row>label {
+    font-size: 25px;
+    color: #270802;
+    justify-self: flex-start;
+    align-self: center;
+    position: relative;
+}
+
+#beans svg:hover {
+    stroke-width: 5px;
+    stroke: #05381D;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10px
+}
+
+label {
+    caret-color: transparent;
+    font-family: "amiko";
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.form-check-input:checked+svg>path {
+    fill: #052038;
+    stroke-width: 5px;
+    stroke: #05381D;
+}
+
+form>.container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
