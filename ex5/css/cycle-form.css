@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+aside,
+section,
+footer,
+header,
+div {
+    display: block;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.container {
+    height: 100px;
+    width: 100%;
+    background-color: #ffff;
+}
+
+i {
+    width: fit-content;
+    height: fit-content;
+}
