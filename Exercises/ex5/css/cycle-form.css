@@ -21,23 +21,3 @@ body {
     min-height: 100%;
     position: relative;
 }
-
-#gallery-cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    top: 100px;
-    background-color: #ffff;
-    border-radius: 10px;
-    width: 650px;
-    height: 456px;
-}
-
-#gallery {
-    width: 517px;
-    height: 300px;
-    background-color: #eeeeee;
-}
-
-#gallery>div {}
