@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+aside,
+section,
+footer,
+header,
+div {
+    display: block;
+}
+
+#gallery-cont {
+    position: relative;
+    background-color: #ffff;
+    border-radius: 10px;
+    max-width: 650px;
+    height: 456px;
+}
+
+#gallery {
+    height: 300px;
+    max-width: 520px;
+    overflow-y: scroll;
+}
+
+#gallery>div {
+    height: 88px;
+    width: 117px;
+    background-color: #eeeeee;
+    border-radius: 15px;
+    margin: 2px;
+}
+
+#gallery>div:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gallery>div>img {
+    height: 88px;
+    width: 117px;
+    border-radius: 15px;
+}
+
+#form-container {
+    position: relative;
+    top: 300px;
+}
+
+.input-group-append {
+    cursor: pointer;
+}
+
+.row.mb-5 i,
+#dateIcon>i {
+    color: #62C462;
+}
+
+form.container {
+    max-width: 466px;
+}
